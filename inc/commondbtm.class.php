@@ -3975,7 +3975,8 @@ class CommonDBTM extends CommonGLPI {
                      break;
 
                   case 'mac' :
-                     preg_match("/([0-9a-fA-F]{1,2}([:-]|$)){6}$/", $value, $regs);
+                     //preg_match("/([0-9a-fA-F]{1,2}([:-]|$)){6}$/", $value, $regs);
+                     preg_match("/([[:xdigit:]]{2}[:.-]?){5}[[:xdigit:]]{2}$/", $value, $regs);
                      if (empty($regs)) {
                         $unset = true;
                      }
