@@ -1,0 +1,11 @@
+2020-09-29 07:51:32 [2@vmsr-glpi]
+0 seconds for "Installation of plugin FusionInventory" @ 2020-09-29 07:51:32 [2@vmsr-glpi]
+0 seconds for "Clean data from old installation of the plugin" @ 2020-09-29 07:51:32 [2@vmsr-glpi]
+0 seconds for "Clean rules from old installation of the plugin" @ 2020-09-29 07:51:41 [2@vmsr-glpi]
+9 seconds for "Creation tables in database" @ 2020-09-29 07:51:41 [2@vmsr-glpi]
+0 seconds for "Creation of folders" @ 2020-09-29 07:51:44 [2@vmsr-glpi]
+3 seconds for "Initialize profiles" @ 2020-09-29 07:51:45 [2@vmsr-glpi]
+1 second for "Initialize configuration" @ 2020-09-29 07:51:45 [2@vmsr-glpi]
+0 seconds for "Initialize agent TASKS" @ 2020-09-29 07:51:45 [2@vmsr-glpi]
+0 seconds for "Initialize cron task" @ 2020-09-29 07:51:51 [2@vmsr-glpi]
+6 seconds for "Create rules" @ 
